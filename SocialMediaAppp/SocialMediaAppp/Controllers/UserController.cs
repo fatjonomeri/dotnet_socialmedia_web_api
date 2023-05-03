@@ -80,7 +80,7 @@ namespace SocialMediaAppp.Controllers
 
         }
 
-        [HttpDelete("{userId")]
+        [HttpDelete("{userId}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
