@@ -90,7 +90,7 @@ namespace SocialMediaAppp.Controllers
 
         }
 
-        [HttpPut("{postId")]
+        [HttpPut("{postId}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
@@ -119,7 +119,7 @@ namespace SocialMediaAppp.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{postId")]
+        [HttpDelete("{postId}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
