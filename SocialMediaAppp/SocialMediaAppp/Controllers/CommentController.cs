@@ -136,7 +136,7 @@ namespace SocialMediaAppp.Controllers
 
         }
 
-        [HttpDelete("{commentId")]
+        [HttpDelete("{commentId}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
